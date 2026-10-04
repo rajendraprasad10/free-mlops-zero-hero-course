@@ -1,0 +1,75 @@
+install 
+
+
+
+setup a project 
+
+
+
+
+git set up 
+
+
+
+create a ml project 
+
+
+ml models build 
+
+
+fastapi inference 
+
+
+dockerize deployment 
+
+
+	Architecture:
+		
+		User → FastAPI → ML Model → Prediction
+
+how to dockerrize
+
+Stack
+
+	Python
+	FastAPI
+	Scikit-learn
+	Docker
+
+
+Learn Here
+
+what is the pkl file 
+
+model.pkl
+
+what is the serialization 
+serialization
+
+how to API serving help us to get predictions 
+
+API serving
+
+first project deploy in docker and compose 
+
+Dockerizing ML apps
+
+
+============================================
+
+
+here you may fase problems 
+
+how to do the data versioning 
+
+how to track experments?  
+
+where do you store the pkl file 
+
+
+
+
+
+
+
+
