@@ -118,7 +118,9 @@ MLops engineer roles and resposibilies
 
 		Pipeline Automation
 
-			Design and maintain end-to-end ML pipelines (data ingestion → training → deployment → monitoring).
+			Design and maintain end-to-end ML pipelines 
+			
+		(data ingestion → training → deployment → monitoring).
 
 			Use orchestration tools like Airflow, Kubeflow, Prefect, Dagster.
 
