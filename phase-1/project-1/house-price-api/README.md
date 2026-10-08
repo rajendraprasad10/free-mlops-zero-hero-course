@@ -2,6 +2,12 @@
 
 User → FastAPI → ML model (`model.pkl`) → Prediction
 
+## python setup in aws server 
+
+sudo apt update
+sudo apt install -y python3 python3-pip python3-venv 
+
+
 ## Run locally
 ```bash
 python -m venv .venv && source .venv/bin/activate
