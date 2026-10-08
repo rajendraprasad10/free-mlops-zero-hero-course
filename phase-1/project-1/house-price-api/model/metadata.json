@@ -1,0 +1,14 @@
+{
+  "features": [
+    "area_sqft",
+    "bedrooms",
+    "bathrooms",
+    "age_years",
+    "location_score",
+    "garage"
+  ],
+  "r2": 0.987,
+  "mae": 14104.0,
+  "rows": 5000,
+  "data_file": "houses.csv"
+}
