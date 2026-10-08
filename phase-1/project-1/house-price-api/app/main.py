@@ -14,6 +14,7 @@ STATIC = Path(__file__).parent / "static"
 state = {}
 
 
+# context manager to handle startup and shutdown events
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Deserialize once at startup, not on every request
