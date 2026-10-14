@@ -1,0 +1,26 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python phase-2/project-1/churn-predictor/train.py
+    deps:
+    - path: phase-2/project-1/churn-predictor/data/churn.csv
+      hash: md5
+      md5: 0b00b9f89850a4f88a65ffa2c4afd4b3
+      size: 491231
+      isexec: true
+    - path: phase-2/project-1/churn-predictor/train.py
+      hash: md5
+      md5: d8a5aea1a1a9875b2c5f658348fbac64
+      size: 2635
+      isexec: true
+    outs:
+    - path: phase-2/project-1/churn-predictor/model/metrics.json
+      hash: md5
+      md5: 63b1750677d2f40fd3cd65f916256c22
+      size: 4660
+      isexec: true
+    - path: phase-2/project-1/churn-predictor/model/model.joblib
+      hash: md5
+      md5: 392c4b64601f8e70e53b8799141bcb80
+      size: 276004
+      isexec: true

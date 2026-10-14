@@ -1,0 +1,12 @@
+
+stages:
+  train:
+    cmd: python phase-2/project-1/churn-predictor/train.py
+    deps:
+      - phase-2/project-1/churn-predictor/train.py
+      - phase-2/project-1/churn-predictor/data/churn.csv
+    outs:
+      - phase-2/project-1/churn-predictor/model/model.joblib
+    metrics:
+      - phase-2/project-1/churn-predictor/model/metrics.json:
+          cache: false
