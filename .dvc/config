@@ -1,0 +1,4 @@
+[core]
+    remote = phase-2/project-1/churn-predictor/data/
+['remote "phase-2/project-1/churn-predictor/data/"']
+    url = s3://devops-central-logs-rajendra
